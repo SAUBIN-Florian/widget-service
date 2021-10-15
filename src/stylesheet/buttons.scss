@@ -1,0 +1,55 @@
+.widget-btn{
+  font-size: 30px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.calculator{
+  background: linear-gradient(to right,  #5a2391,  #988590);
+  border: 1px solid #5a2391;
+  &:active{
+    transform: scale(0.8);
+    border: 1px solid #988590;
+  }
+}
+
+.list{
+  background: linear-gradient(to right,  #5a2391,  #988590);
+  border: 1px solid #5a2391;
+  &:active{
+    transform: scale(0.8);
+    border: 1px solid #988590;
+  }
+}
+
+.cloud{
+  background: linear-gradient(to right,  #5a2391,  #988590);
+  border: 1px solid #5a2391;
+  &:active{
+    transform: scale(0.8);
+    border: 1px solid #988590;
+  }
+}
+
+.clock{
+  background: linear-gradient(to right,  #5a2391,  #988590);
+  border: 1px solid #5a2391;
+  &:active{
+    transform: scale(0.8);
+    border: 1px solid #988590;
+  }
+}
+
+.music{
+  background: linear-gradient(to right,  #5a2391,  #988590);
+  border: 1px solid #5a2391;
+  &:active{
+    transform: scale(0.8);
+    border: 1px solid #988590;
+  }
+}
