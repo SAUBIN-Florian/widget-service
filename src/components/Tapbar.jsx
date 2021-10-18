@@ -45,14 +45,14 @@ export default function Tapbar() {
         <i className="fas fa-calculator"></i>
       </button> 
       { calc === true && (
-        <Calculator />
+          <Calculator />
         )
       }
       <button onClick={handleToggle} className="widget-btn list">
         <i className="fas fa-list"></i>
       </button>
       { list === true && (
-        <List />
+          <List />
         )
       }
       <button onClick={handleToggle} className="widget-btn cloud">
